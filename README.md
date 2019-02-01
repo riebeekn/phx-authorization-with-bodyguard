@@ -1,5 +1,5 @@
-# Phoenix authentication with Pow
+# Phoenix authorization with Bodyguard
 
-A simple Phoenix application demonstrating authentication with [Pow](https://github.com/danschultzer/pow).
+A simple Phoenix application demonstrating authorization with [Bodyguard](https://github.com/schrockwell/bodyguard).
 
-For more information see: [https://experimentingwithcode.com/phoenix-authentication-with-pow-part-1/](https://experimentingwithcode.com/phoenix-authentication-with-pow-part-1)
+For more information see: [https://experimentingwithcode.com/phoenix-authorization-with-bodyguard/](https://experimentingwithcode.com/phoenix-authorization-with-bodyguard)
