@@ -54,7 +54,7 @@ defmodule Warehouse.InventoryTest do
 
     test "delete_product/1 deletes the product" do
       product = product_fixture()
-      assert {:ok, %Product{}} = Inventory.delete_product(product)
+      assert {:ok, %Product{}} = Inventory.delete_product(product, user_fixture())
       assert_raise Ecto.NoResultsError, fn -> Inventory.get_product!(product.id) end
     end
 

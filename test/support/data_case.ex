@@ -22,6 +22,7 @@ defmodule Warehouse.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       import Warehouse.DataCase
+      import Warehouse.TestHelpers
     end
   end
 
